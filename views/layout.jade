@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+   title The history of metal 
+   meta(charset='utf-8')
+   meta(http-equiv='x-ua-compatible', content='IE=edge')
+   meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+   link(href='stylesheets/bootstrap.css', rel='stylesheet')
+   link(href='stylesheets/style.css', rel='stylesheet')
+   link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')  
+   link(href='https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap', rel='stylesheet')
+   link(href='https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap', rel='stylesheet')
+   link(href='https://fonts.googleapis.com/css?family=Creepster&display=swap', rel='stylesheet')
+  body
+   img#logo.img-responsive.center-block(src='images/logo_h_of_metal.png', alt='log history of metal')   
+   nav.nav.nav--cen
+      ul.menu
+       li.menu-item
+        a(href='/') Accueil
+       li.menu-item
+        a(href='/about') Histoire
+       li.menu-item.has-children
+        a(href='#')
+         | Groupes 
+         span.dropdown-icon
+        ul.sub-menu
+         li.menu-item
+          a(href='/heavy_metal_bands') Vestibulum
+         li.menu-item
+          a(href='/thrash_metal_bands') Quisque
+         li.menu-item.has-children
+          a(href='/death_metal_bands') Duis 
+         li.menu-item.has-children
+          a(href='/black_metal_bands') Sed
+         li.menu-item.has-children
+          a(href='/power_metal_bands') In hac
+         li.menu-item.has-children
+          a(href='/doom_metal_bands') Mauris vel	
+         li.menu-item.has-children
+          a(href='/speed_metal_bands') Duis vitae
+         li.menu-item.has-children
+          a(href='/grind_core_bands') Aliquam nec	      
+   block content   
+  footer
+    p#footer
+      | &nbsp; © 
+      a(href='https://gabriel-cassano.be/') Cassano Gabriele, 2019 - Tous droits réservés.
+     p#footer-right-section
+      a(href='https://gabriel-cassano.be/cgu.html') CGU 
+      a(href='https://gabriel-cassano.be/ml.html') | Mentions légales
+    script(src='https://code.jquery.com/jquery-3.4.1.js')
+    script(src='javascripts/menu.js')
+
+script.
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+    x.className += " responsive";
+    } else {
+    x.className = "topnav";
+    }
+    }        

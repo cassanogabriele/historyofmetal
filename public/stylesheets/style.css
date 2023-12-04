@@ -1,0 +1,332 @@
+/* GENERAL CSS */
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:#D8D8D8;
+}
+
+.title-pages{ 
+	text-align:center; 
+	font-family: 'Creepster', cursive !important;
+}
+
+.styles{	
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+/* HOME PAGE */
+.articles-img{
+	width: 300px;
+	height: 300px;
+}
+
+/* LAYOUT */ 
+#logo{ margin-top:-65px; }
+
+#title-container{ font-family: 'Black Ops One', cursive; }
+
+.col-md-4 h2{ font-family: 'Black Ops One', cursive; }
+
+.container h1{ font-family: 'Black Ops One', cursive; }
+
+#presentation{ font-family: 'Roboto Condensed', sans-serif; }
+
+#button-background{ 
+	background-color: #000000; 
+	border:1px solid #000000;
+	box-shadow: 0.5px 0.5px 0px #BDBDBD; 
+}
+
+/* NAVBAR MENU SECTION FROM LAYOUT PAGE */
+.wrapper {
+  max-width: 970px;
+  margin: 3em auto;
+}
+
+.menu,
+.sub-menu {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item,
+.sub-menu,
+.dropdown-icon {
+  border: 0 solid;
+}
+
+.menu .menu-item {
+  display: block;
+}
+
+.menu .menu-item.has-children, .menu .menu-item.has-children .menu-item {
+  position: relative;
+}
+.menu .menu-item:not(:last-child) {
+  border-width: 0 0 1px;
+}
+
+.menu .menu-item a {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.menu .sub-menu {
+  border-width: 1px 0 0;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  transition: visibility .25s, opacity .25s ease-in-out;
+}
+
+.menu .sub-menu .menu-item {
+  visibility: hidden;
+}
+
+.menu .menu-item:hover > .sub-menu, .menu .menu-item:active > .sub-menu, .menu .menu-item:focus > .sub-menu {
+  opacity: 1;
+  height: auto;
+  width: auto;
+}
+
+.menu .menu-item:hover > .sub-menu,
+.menu .menu-item:hover > .sub-menu .menu-item, .menu .menu-item:active > .sub-menu,
+.menu .menu-item:active > .sub-menu .menu-item, .menu .menu-item:focus > .sub-menu,
+.menu .menu-item:focus > .sub-menu .menu-item {
+  visibility: visible;
+}
+
+.menu .dropdown-icon {
+  padding: 1em 1.25em;
+  margin: -1em -1em -1em .5em;
+  border-width: 0 0 0 1px;
+}
+
+.menu .dropdown-icon:after {
+  content: "▼";
+  display: block;
+  transition: transform .25s ease-in-out;
+}
+
+.nav--rtl {
+  direction: rtl;
+  unicode-bidi: bidi-override;  
+}
+.nav--rtl .menu .dropdown-icon {
+  margin: -1em .5em -1em -1em;
+  border-width: 0 1px 0 0;
+}
+
+.nav {
+  background-color: black;
+  margin-bottom: 45px; 
+}
+
+.nav .menu > .menu-item,
+.nav .menu > .menu-item .dropdown-icon {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav .menu > .menu-item, .nav .menu > .menu-item > a {
+  color: #ddd;
+}
+
+.nav .menu > .menu-item > a:hover, .nav .menu > .menu-item > a:active, .nav .menu > .menu-item > a:focus {
+  background-color: #FF0000;
+  color: #fff;
+}
+
+.nav .sub-menu {
+  background-color: #eee;
+}
+
+.nav .sub-menu,
+.nav .sub-menu .dropdown-icon,
+.nav .sub-menu .menu-item,
+.nav .sub-menu .menu-item .dropdown-icon {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav .sub-menu .menu-item,
+.nav .sub-menu .menu-item a {
+  color: #222;
+}
+
+.nav .sub-menu .menu-item a:hover, .nav .sub-menu .menu-item a:active, .nav .sub-menu .menu-item a:focus {
+  background-color: white;
+  color: black;
+}
+
+.nav a{	
+	text-decoration: none; 
+	font-size:18px;	
+}
+
+.nav ul{ float:left !important; }
+
+/* ABOUT PAGE */
+#story{
+	margin-top: 40px; 
+	text-align: left; 
+	font-size: 18px;
+	font-family: Helvetica, sans-serif;
+}
+
+/* BANNER STYLES OF METAL PAGES */
+.fg-gallery{ margin-top:45px; }
+
+.gallery{ 
+	height:250px;
+	width:250px;
+}
+
+/* STYLES BANDS PAGES */
+.bands{
+	border: 2px solid #000000;
+	border-radius: 5px;
+	background-color: #000000;
+	margin-bottom: 25px;
+}
+
+.bands p{ color: #FFFFFF;}
+
+#bands-h1{
+	text-align:center;
+	font-family: 'Black Ops One', cursive;
+	margin-bottom: 45px;
+}
+
+.bands-titles-color{
+	text-align:center; 
+	font-size:30px;
+	margin-top:30px;
+	font-family: 'Creepster', cursive !important;
+	color: #FF0000 !important; 
+}
+
+.bands-titles-color-2{
+	text-align:center; 
+	font-size:22px;
+	margin-top:30px;
+	font-family: 'Black Ops One', cursive;
+	color: #BDBDBD !important; 
+}
+
+.bands-img{
+	height:300px;
+	width:300px;
+	margin-top:30px;
+}
+
+hr {
+	background-color: #000000; 
+	height: 3px; 
+}
+
+#hr-style-2{
+	background-color: #000000; 
+	height: 1px; 
+}
+
+.sites{	
+	color: #FFFFFF !important; 
+	text-align:center !important;
+	text-decoration: none !important;
+	font-size:16px !important;
+}
+
+/* FOOTER */
+footer{
+	background: #999999;
+	height: 90px;
+	margin-top: 30px;
+	text-align:left;
+	overflow:auto;
+	color:#FFFFFF;
+	border-radius:5px;
+  margin-top:15px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer{ background-color: #000000; }
+
+footer a{ color: #FFFFFF;  }
+
+#footer a {
+  text-decoration: none;
+  color: #FFFFFF; 
+}
+
+#footer a:hover {
+  color: #FFFFFF; 
+}
+
+#footer-right-section{
+  padding-right: 20px;
+}
+
+#footer-right-section a {
+  text-decoration: none;
+  color: #FFFFFF; 
+}
+
+#footer-right-section a:hover {
+  color: #FFFFFF; 
+}
+
+/* RESPONSIVE */
+
+/* NAVBAR  */
+@media only screen and (min-width: 1024px) {
+  .nav .menu {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .nav .menu > .menu-item {
+    border-width: 0 1px 0 0;
+  }
+  .nav .menu > .menu-item > a .dropdown-icon {
+    padding-left: 0;
+  }
+  .nav .menu .menu-item:hover > .sub-menu, .nav .menu .menu-item:active > .sub-menu, .nav .menu .menu-item:focus > .sub-menu {
+    width: 225px;
+  }
+  .nav .menu .sub-menu {
+    position: absolute;
+    z-index: 3000;
+    top: 100%;
+    left: 0;
+    border-width: 0;
+  }
+  .nav .menu .sub-menu .sub-menu {
+    top: 0;
+    left: 100%;
+  }
+  .nav .menu .dropdown-icon {
+    border-width: 0;
+    padding: 1em;
+  }
+
+  .nav--rtl .menu > .menu-item > a .dropdown-icon {
+    padding-left: 1em;
+    padding-right: 0;
+  }
+  .nav--rtl .menu .sub-menu {
+    top: 100%;
+    left: auto;
+    right: 0;
+  }
+  .nav--rtl .menu .sub-menu .sub-menu {
+    left: auto;
+    right: 100%;
+  }
+
+  .nav--cen .menu {
+    justify-content: center;
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "name": "app-website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.3",
+    "createerror": "^1.3.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "jade": "~1.11.0",
+    "morgan": "^1.9.1",
+    "nodemailer": "*",
+    "opn": "^6.0.0",
+    "serve-favicon": "^2.5.0"
+  }
+}
